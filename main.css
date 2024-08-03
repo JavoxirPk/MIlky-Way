@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url("rasimlar/koinoy2.jpg");
+    background-image: url("./rasimlar/home.jpg");
     background-size: 100%;
 
 }
@@ -9,7 +9,7 @@ body {
 .quyosh {
     width: 120px;
     height: 120px;
-    background-color: yellow;
+    background-image: url(./rasimlar/oilaviy.jpg);
     border-radius: 50%;
     background-size: cover;
     box-shadow: -4px 2px 56px #f9c05f;
@@ -17,21 +17,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.mercury {
-    width: 20px;
-    background-image: url(rasimlar/foto-i-kartinki-merkurija-29.jpg);
-    background: #a94c2b;
-    height: 20px;
-    border-radius: 50%;
-    box-shadow: -4px 2px 56px #f9c05f;
-    position: absolute;
-    top: 42%;
-    left: 43%;
-    transform: translate(-50%, -50%);
-    animation: orbit2 2s linear infinite;
-
 }
 
 @keyframes orbit2 {
@@ -67,25 +52,6 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.mercury-sayorasi {
-    width: 140px;
-    height: 140px;
-}
-
-.venera {
-    width: 40px;
-    height: 40px;
-    background-image: url(rasimlar/1644998785_31-fikiwiki-com-p-kartinki-veneri-32.png);
-    background-size: 100%;
-    border-radius: 50%;
-    box-shadow: -4px 2px 56px #c1aa81;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    animation: orbit3 6s linear infinite;
-}
-
 @keyframes orbit3 {
     from {
         transform: rotate(0deg)translate(100px)rotate(0deg);
@@ -96,22 +62,16 @@ p {
     }
 }
 
-.venera-sayorasi-1 {
-    width: 200px;
-    height: 200px;
-}
 
 .yer {
     width: 50px;
     height: 50px;
-    background-image: url(rasimlar/yer3.jpg);
+    background-image: url(./rasimlar/man.jpg);
     background-size: 100%;
     border-radius: 50%;
-    box-shadow: -4px 2px 56px #c1aa81;
     position: absolute;
     top: 43%;
     left: 44%;
-    transform: translate(-50%, -50%);
     animation: orbit4 10s linear infinite;
 
 }
@@ -141,7 +101,7 @@ p {
     border-radius: 40px;
 }
 
-.yer-inner {
+/* .yer-inner {
     width: 10px;
     height: 10px;
     background-color: rgb(245, 240, 240);
@@ -151,7 +111,7 @@ p {
     left: 45%;
     top: 45%;
     animation: orbit5 3s linear infinite;
-}
+} */
 
 @keyframes orbit5 {
     from {
@@ -166,7 +126,7 @@ p {
 .mars {
     width: 60px;
     height: 60px;
-    background-image: url(rasimlar/mars-sayorasi-1.jpg);
+    background-image: url(./rasimlar/oyim.jpg);
     background-size: 100%;
     border-radius: 50%;
     box-shadow: -4px 2px 56px #c1aa81;
@@ -197,7 +157,7 @@ p {
 .yupiter {
     width: 70px;
     height: 70px;
-    background-image: url(rasimlar/yupiter-sayorasi-1.jpg);
+    background-image: url(./rasimlar/adam.jpg);
     background-size: 100%;
     border-radius: 50%;
     box-shadow: -4px 2px 56px sandybrown;
